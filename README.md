@@ -2,13 +2,13 @@
 
 <!-- 本文件由 scripts/build-readme.mjs 从 deepseek1024.com 目录 API 自动生成，请勿手工编辑。 -->
 
-面向 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness)（`dsh`）生态的社区插件目录，共收录 **13896** 个插件（含 PR 收录与 GitHub `dsh-plugin` topic 自动发现），目录数据更新于 2026-10-29。
+面向 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness)（`dsh`）生态的社区插件目录，共收录 **13897** 个插件（含 PR 收录与 GitHub `dsh-plugin` topic 自动发现），目录数据更新于 2026-10-29。
 
 > 📦 **仓库拆分公告**：自 2026-08-25 起，deepseek1024.com 网站与 `dsh1024` CLI 的源码已拆分至独立仓库 [imsai-sh/dsh-1024store](https://github.com/imsai-sh/dsh-1024store)。本仓库从此专注插件目录（awesome 清单）与收录流程；网站与 CLI 相关的 issue / PR 请移步新仓库，插件收录照旧在这里提交。
 
 **但这个项目不只是一份 awesome list。** 它还包括一个在线插件市场、一个把市场装进 `dsh` 本体的插件，以及一套免费的公开查询 API——这些应用代码开源在姊妹仓库 [dsh-1024store](https://github.com/imsai-sh/dsh-1024store)；本仓库专注目录本身：经静态校验的 PR 收录流水线与自动生成的目录 README，目录数据另有自动收集服务持续喂入。全部代码 MIT 协议，fork 之后就能部署成你自己的插件市场。
 
-[![DSH 1024Store 插件市场首页](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.zh.png?v=808d55544a6c)](https://deepseek1024.com/)
+[![DSH 1024Store 插件市场首页](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.zh.png?v=216cae086d43)](https://deepseek1024.com/)
 
 [在线网站](https://deepseek1024.com/) · [API 文档](https://github.com/imsai-sh/dsh-1024store/blob/main/web/docs/api.md) · [英文目录](catalog/README.md) · [提交插件](CONTRIBUTING.md) · [网站与 CLI 源码](https://github.com/imsai-sh/dsh-1024store)
 
@@ -144,7 +144,7 @@ docs/               目录数据模型文档
 - [技能包](#skill) (1050)
 - [工作流与自动化](#workflow) (780)
 - [通知与集成](#notify) (504)
-- [模型与账号接入](#model) (830)
+- [模型与账号接入](#model) (831)
 - [开发与运行时](#dev) (1645)
 - [娱乐](#fun) (564)
 
@@ -2243,7 +2243,7 @@ docs/               目录数据模型文档
 <a id="model"></a>
 
 <details>
-<summary><strong>模型与账号接入</strong> · 显示 254 / 共 830 个</summary>
+<summary><strong>模型与账号接入</strong> · 显示 254 / 共 831 个</summary>
 
 - [all](https://github.com/DamonBao/dsh-codex-suite/tree/HEAD/packages/all) — 提供包含 OpenAI Codex 模型接入和账户用量统计的插件套件。
 - [auth](https://github.com/daifuyang/dsh-plugin/tree/HEAD/plugins/auth) — 提供 DeepSeek Harness 的登录与认证流程，管理用户凭据与会话。
@@ -2285,6 +2285,7 @@ docs/               目录数据模型文档
 - [deepseek-harness-wallet](https://github.com/feibi-mochi/deepseek-harness-wallet) — 多供应商钱包标签：官方 DeepSeek 余额、本会话花费与 token、第三方合计 token、一键充值、低余额提醒。
 - [deepseek-harness-zcode_mask](https://github.com/magian1127/deepseek-harness-zcode_mask) — 将 ZCode 编程模型接入 DeepSeek Harness，保持请求头一致，实现无缝访问。
 - [deepseek-peak-valley-router](https://github.com/Eligahyu/deepseek-peak-valley-router) — DeepSeek Harness 峰谷定价自动模型路由插件:高峰自动用 deepseek-v4-flash 省钱,空闲自动用 deepseek-v4-pro 提质量,用户显式选择始终优先
+- [DeepSeek-Usage](https://github.com/sdiwenchen-lang/DeepSeek-Usage) — DSH 的 DeepSeek 用量面板：官方账户余额与账单、用量日历，以及按可编辑的逐模型美元费率估算全部 Provider 的本地会话日志用量。
 - [DeepSeek-vision](https://github.com/ToryReina/deepseek-vision/tree/HEAD/DeepSeek-vision) — 集成视觉能力，使界面支持图像理解与分析。
 - [DeepSeek-VisionPlus](https://github.com/qq247505/DeepSeek-VisionPlus) — 将图像理解路由到免费视觉模型池，自动降级、限速并实时监测。
 - [dockyard-dsh](https://github.com/4sa1ary9/dockyard-dsh) — 提供商选择器，支持Codex、Grok等。
@@ -2498,8 +2499,7 @@ docs/               目录数据模型文档
 - [dsh-ext-vision-proxy](https://github.com/jin123-alpha/dsh-ext-vision-proxy) — 通过外部视觉API，让纯文本模型具备图像分析能力。
 - [dsh-fare-meter](https://github.com/bunipai/dsh-fare-meter) — 实时统计 API 使用费用，为对话计费提供参考。
 - [dsh-finish-reason-patch](https://github.com/Canson666/dsh-finish-reason-patch) — 将gpt之类的项目在dsh中出现without finish reason的情况解决，可以正常使用gpt模型
-- [dsh-free-model](https://github.com/jsoncode/dsh-free-model) — OpenRouter free-models browser & one-click model config for DeepSeek Harness (DSH) — newest-first, local search, platform tabs. DSH 免费模型浏览器：按最新排序、本地搜索、一键添加到模型列表
-- *GitHub 单个文件能渲染的长度有上限，本分类还有 576 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
+- *GitHub 单个文件能渲染的长度有上限，本分类还有 577 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
 
 </details>
 
