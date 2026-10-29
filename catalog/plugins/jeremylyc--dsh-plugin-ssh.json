@@ -1,0 +1,12 @@
+{
+  "id": "JeremyLyc/dsh-plugin-ssh",
+  "name": "dsh-plugin-ssh",
+  "description": {
+    "en": "Binds a DeepSeek Harness workspace to an SSH host. Adds agent tools for running commands and transferring files over SFTP, a sidebar panel, a server file browser with a directory picker, and a password prompt that appears only when no key or password is configured.",
+    "zh": "把 DeepSeek Harness 的工作区绑定到一台 SSH 主机：提供执行命令与通过 SFTP 传输文件的 agent 工具、侧栏面板、带目录选择器的服务器文件浏览，以及仅在未配置密钥或密码时出现的密码输入。"
+  },
+  "$schema": "../schema/plugin.schema.json",
+  "category": "tools",
+  "repository": "https://github.com/JeremyLyc/dsh-plugin-ssh",
+  "added": "2026-10-29"
+}
