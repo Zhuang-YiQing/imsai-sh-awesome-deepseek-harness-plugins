@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/plugin.schema.json",
+  "id": "NoneadChina/dsh-nonead-ursim",
+  "name": "dsh-nonead-ursim",
+  "repository": "https://github.com/NoneadChina/dsh-nonead-ursim",
+  "category": "tools",
+  "description": {
+    "en": "Lets a DSH agent drive Universal Robots arms: joint and Cartesian motion, OptiMove, drawing primitives, pose and status readback, RTDE telemetry, standard and tool-side I/O and registers, URScript, and TCP/payload/tool settings. Commands run through a bundled Python worker; offline simulation is the default and real-robot access must be enabled explicitly.",
+    "zh": "让 DSH 智能体驱动 Universal Robots 机械臂：关节与笛卡尔运动、OptiMove、绘图原语、位姿与状态回读、RTDE 遥测、标准端与工具端 I/O 及寄存器、URScript，以及 TCP／负载／工具设置。指令由随包的 Python worker 执行；默认走离线仿真，真机通道需显式开启。"
+  },
+  "added": "2026-10-30"
+}
